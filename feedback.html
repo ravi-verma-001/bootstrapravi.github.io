@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>UL</title>
+<meta character="UTF-8">
+<link rel="stylesheet" href="progresscircle.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/f28c5439f8.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/f28c5439f8.js" crossorigin="anonymous"></script>
+<link rel="stylesheet"href="feedback.css">
+</head>
+<body>
+  
+  <div class="header"id= "topheader"> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+      <div class="container text-uppercase p-2">
+        <a class="navbar-brand font-weight-bold text-black" href="#">SAI</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="service.html">SERVICE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="feedback.html">FEEDBACK</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </nav>
+  </div>
+        
+           
+                 <div class="container mark">
+                   <h2>Click On Behalf Of Your Exprience</h2>
+                 <table class="table table-striped text-center">
+                  <thead>
+                    <tr>
+                      <th>very bad</th>
+                      <th>bad</th>
+                      <th>good</th>
+                      <th>very good</th>
+                      <th>excellent</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                   
+                    <tr data-href="thanx.html">
+                     <th>1</th>
+                      <th>2</th>
+                      <th>3</th>
+                      <th>4</th>
+                      <th>5</th>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+         <section class="contactus" id="contactid">
+        <div class="container heading text-center">
+          <h4 class="text-center font-weight-bold"> FEEDBACK</h4>
+          <p class="text-uppercase pt-1">We'Ar Hear To Help And Answer To Question You Might Have We Look Forward To Hearing From.</p>  
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8 col-md-8 col-10 offset-lg-2 col-md-2 col-1">
+                    <form action="/action_page.php">
+
+                      <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Enter User Name" id="email">
+                      </div>
+                      
+                      <form action="/action_page.php"></form>
+                      <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Enter email" id="email">
+                      </div>
+
+                      <form action="/action_page.php"></form>
+                      <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Enter Mobile NO " id="email">
+                      </div>
+                      <div class="form-group">
+                        <textarea class="form-control" row="4" id="comment" placeholder="comment"></textarea>
+                      </div>
+                      
+                      <div class="d-flex justify-content-center form-button">
+                        <a href="thanx.html">Submit</a>
+                     </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              </section>
+            
+            <footer class="footersection" id="footerid">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 col-12 footer-div">
+                    <div>
+                      <h3>ABOUT SAI</h3>
+                      <p>SAI INSTITUTE IS ONE OF THE BEST INSTITUTE IN DELHI NCR THEY IVE A BEST KNOWLEDGE IN SHORT TIME </p>
+                    </div>
+                    </div>
+      
+                        <div class="col-lg-4 col-md-6 col-12 footer-div text-center">
+                          <div>
+                            <h3>NAVIGATION LINK</h3>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">SERVICE</a></li>
+                            <li><a href="#">PRICE</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                            <li><a href="#">ABOUT US</a></li>
+                          </div>
+                          </div>
+      
+                              <div class="col-lg-4 col-md-6 col-12 footer-div">
+                                <div>
+                                  <h3>NEWS LETTER</h3>
+                                  <p>Bootstrap is a free and open source front end development framework for the creation of websites and web apps.</p>
+                                </div>
+                                </div>
+                    </div>
+                    </div>
+            </footer>
+
+
+
+
+
+
+
+  </section>
+
+
+      
+    <script>
+      document.addEventListener("DOMContentLoaded",()=>{
+        const rows = document.querySelectorAll("tr[data-href]");
+        rows.forEach(row => {
+          row.addEventListener("click",()=>{
+            window.location.href=row.dataset.href;
+          });
+          
+        });
+      });
+
+    </script>  
+      
+
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+    crossorigin="anonymous"></script>
+               
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+ 
+</body>
+</html>
